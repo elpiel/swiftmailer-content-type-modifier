@@ -1,0 +1,29 @@
+{
+    "name": "twify93/swiftmailer-content-type-modifier",
+    "description": "Plugin for Swiftmailer which sets the content type for all uses of Swiftmailer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lachezar Lechev",
+            "email": "elpiel93@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "swiftmailer/swiftmailer": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": "tests/src/"
+        }
+    }
+}
